@@ -1,0 +1,35 @@
+name: trade_fi
+description: Hedging Systems.
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  cupertino_icons: ^1.0.8
+  material_color_utilities: ^0.11.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  leak_tracker: ^10.0.5 
+  leak_tracker_flutter_testing: ^3.0.5  
+  stack_trace: ^1.11.1
+  string_scanner: ^1.2.0  
+
+
+
+
+  
+
+
+
+
+
+
+
+
