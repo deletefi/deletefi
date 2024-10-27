@@ -1,25 +1,56 @@
 name: trade_fi
 description: Hedging Systems.
 
+# Указываем совместимые версии Dart SDK
 environment:
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=2.18.0 <3.0.0"
 
+# Зависимости вашего проекта
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^3.6.0
-  cloud_firestore: ^5.4.4
-  firebase_auth: ^5.3.1
-  cupertino_icons: ^1.0.8
-  material_color_utilities: ^0.11.1 
+  supabase_flutter: ^2.8.0
+  http: ^0.13.6
 
+
+# Переопределение зависимостей, если вам нужно использовать более новые версии
+dependency_overrides:
+  collection: ^1.19.0
+  http_parser: ^4.1.0
+  material_color_utilities: ^0.12.0
+  meta: ^1.16.0
+  mime: ^2.0.0
+  string_scanner: ^1.3.0  
+
+# Зависимости для разработки и тестирования
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
-    sdk: flutter
-  leak_tracker: ^10.0.5 
-  leak_tracker_flutter_testing: ^3.0.5  
-  stack_trace: ^1.11.1
-  string_scanner: ^1.2.0  
+    sdk: flutter  # Зависимость для тестирования приложений Flutter
+
+# Укажите, если вы хотите опубликовать пакет на pub.dev
+publish_to: 'none'  # Уберите эту строку, если хотите публиковать
+version: 1.0.0+1  # Укажите версию вашего приложения
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
